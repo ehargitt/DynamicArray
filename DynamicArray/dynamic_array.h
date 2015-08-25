@@ -11,6 +11,7 @@ class DynamicArray {
     ~DynamicArray<T>();
     T getItemAt(int index);
     int getCapacity() { return capacity; }
+    int getNumElements() { return num_elements; }
     void set(int index, T input);
 
   private:
